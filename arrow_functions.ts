@@ -1,10 +1,10 @@
-// function fullName(first,last) {
-// 	return first + " " + last;
-// }
+var fullName = (first,last) => {
+	return first + " " + last;
+}
 
-// console.log(fullName('Tyson', 'Bloxham'))
+console.log(fullName('Tyson', 'Bloxham'));
 
-function gradeGenerator(grade: number) : string {
+var gradeGenerator = (grade: number) : string => {
 	if (grade < 60) {
 		return 'F';
 	} else if (grade >= 60 && grade < 70) {

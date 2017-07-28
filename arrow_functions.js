@@ -1,8 +1,8 @@
-// function fullName(first,last) {
-// 	return first + " " + last;
-// }
-// console.log(fullName('Tyson', 'Bloxham'))
-function gradeGenerator(grade) {
+var fullName = function (first, last) {
+    return first + " " + last;
+};
+console.log(fullName('Tyson', 'Bloxham'));
+var gradeGenerator = function (grade) {
     if (grade < 60) {
         return 'F';
     }
@@ -18,8 +18,8 @@ function gradeGenerator(grade) {
     else {
         return 'A';
     }
-}
+};
 console.log(gradeGenerator(45));
 console.log(gradeGenerator(100));
 console.log(gradeGenerator(80));
-//# sourceMappingURL=functions.js.map
+//# sourceMappingURL=arrow_functions.js.map
