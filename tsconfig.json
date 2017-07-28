@@ -3,6 +3,6 @@
     "sourceMap": true
   },
   "files": [
-    "function_declaration.ts"
+    "classes.ts"
   ]
 }
