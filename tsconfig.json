@@ -2,9 +2,11 @@
   "compilerOptions": {
   	"module": "amd",
   	"target": "es6",
+		"experimentalDecorators": true,
+		"emitDecoratorMetadata": true,
     "sourceMap": true
   },
   "files": [
-    "higher_order_functions_callbacks.ts"
+    "decorator_example_angular.ts"
   ]
 }
