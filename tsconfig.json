@@ -1,8 +1,10 @@
 {
   "compilerOptions": {
+  	"module": "amd",
+  	"target": "es6",
     "sourceMap": true
   },
   "files": [
-    "namespaces.ts"
+    "higher_order_functions_callbacks.ts"
   ]
 }
